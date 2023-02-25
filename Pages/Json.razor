@@ -1,0 +1,142 @@
+﻿@page "/json"
+@inject HttpClient Http
+@using System.Text.Json
+@using System.Text.Encodings.Web
+@using Portfolio.Model
+
+<PageTitle>Vasco Teixeira - JSON</PageTitle>
+
+<h3>Json CV Generator</h3>
+@if (!String.IsNullOrEmpty(json)) {
+	<textarea class="m-5" cols="200" rows="50">
+
+	@json
+</textarea>
+
+}
+
+@code {
+
+	private Resume? resume = new Resume();
+	private string json;
+	protected override async Task OnInitializedAsync()
+	{
+		resume.Name = "Vasco da Fonseca Teixeira";
+		resume.Title = "Software Developer";
+		resume.Email = "vascofteixeiraporto@gmail.com";
+		resume.Phone = "(+351) 927 412 369";
+		resume.Address = "Barcelos, Braga, Portugal";
+		resume.Summary = "";
+		resume.Age = 21;
+		resume.Languages = new string[] { "English", "Portuguese" };
+		resume.Links = new Links[] {
+			new Links {
+				Name = "LinkedIn",
+				Icon = "bi bi-linkedin",
+				Url = "ImHarker"
+			}, 
+			new Links {
+				Name= "GitHub",
+				Icon = "bi bi-github",
+				Url = "ImHarker"
+			}
+		};
+		resume.Skills = new Skills[] {
+			new Skills {
+				Title = "Programming Languages",
+				Name = new string[] {
+					"C", 
+					"C++", 
+					"C#", 
+					"SQL"
+				}
+			}, new Skills {
+				Title = "Frameworks", 
+				Name = new string[] {
+					"ASP.NET Core",
+					"Xamarin",
+					"WPF"
+				}
+			}, new Skills {
+				Title = "Tools",
+				Name = new string[] { 
+					"Visual Studio",
+					"Git"
+				}
+			}
+		};
+		resume.Education = new Education[] {
+			new Education {
+				Name = "UTAD - Universidade de Trás-os-Montes e Alto Douro",
+				Location = "Folhadela, Vila Real, Portugal",
+				Degree = "Bachelor Computer Science",
+				StartDate = "2020",
+				EndDate = "current",
+				Description = ""
+			}
+		};
+		resume.Projects = new Project[] {
+			new Project {
+				Name = "Can't Stop Game",
+				Description = "Can't Stop Game for Windows Terminal",
+				Link = "https://github.com/ImHarker/CantStopC",
+				Image = "https://via.placeholder.com/150",
+				Technologies = new string[] {
+					"C"
+				}
+			},
+			new Project {
+				Name = "BattleShip Game",
+				Description = "BattleShip Game for Windows Terminal",
+				Link = "https://github.com/ImHarker/BattleShipCpp",
+				Image = "https://via.placeholder.com/150",
+				Technologies = new string[] {
+					"C++"
+				}
+			},
+			new Project {
+				Name = "File Parser",
+				Description = "File Parser using Yacc, Lex and C",
+				Link = "https://github.com/ImHarker/Yacc-Lex-Project",
+				Image = "https://via.placeholder.com/150",
+				Technologies = new string[] {
+					"Yacc",
+					"Lex",
+					"C"
+				}
+			},
+			new Project {
+				Name = "Shopping List App",
+				Description = "Shopping List App for Windows and Android",
+				Link = "https://github.com/ImHarker/Lista-de-Compras-WPF-Android",
+				Image = "https://via.placeholder.com/150",
+				Technologies = new string[] {
+					"C#",
+					"Xamarin",
+					"WPF"
+				}
+			},
+			new Project {
+				Name = "Online Game Store",
+				Description = "Online Game Store Website",
+				Link = "https://github.com/ImHarker/EspamaGS",
+				Image = "https://via.placeholder.com/150",
+				Technologies = new string[] {
+					"C#",
+					"ASP.NET Core",
+					"SQL"
+				}
+			}
+		};
+		json = JsonSerializer.Serialize(resume, new JsonSerializerOptions { WriteIndented = true, Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping});
+
+
+		//resume = await Http.GetFromJsonAsync<Resume>("data/resume.json");
+
+	}
+
+
+
+	
+
+}
