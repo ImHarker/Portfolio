@@ -1,0 +1,114 @@
+{
+  "Name": "Vasco da Fonseca Teixeira",
+  "Title": "Software Developer",
+  "Email": "vascofteixeiraporto@gmail.com",
+  "Phone": "(+351) 927 412 369",
+  "Address": "Barcelos, Braga, Portugal",
+  "Summary": "",
+  "Age": 21,
+  "Languages": [
+    "English",
+    "Portuguese"
+  ],
+  "Links": [
+    {
+      "Name": "LinkedIn",
+      "Icon": "bi bi-linkedin",
+      "Url": "ImHarker"
+    },
+    {
+      "Name": "GitHub",
+      "Icon": "bi bi-github",
+      "Url": "ImHarker"
+    }
+  ],
+  "Skills": [
+    {
+      "Title": "Programming Languages",
+      "Name": [
+        "C",
+        "C++",
+        "C#",
+        "SQL"
+      ]
+    },
+    {
+      "Title": "Frameworks",
+      "Name": [
+        "ASP.NET Core",
+        "Xamarin",
+        "WPF"
+      ]
+    },
+    {
+      "Title": "Tools",
+      "Name": [
+        "Visual Studio",
+        "Git"
+      ]
+    }
+  ],
+  "Education": [
+    {
+      "Name": "UTAD - Universidade de Trás-os-Montes e Alto Douro",
+      "Location": "Folhadela, Vila Real, Portugal",
+      "Degree": "Bachelor Computer Science",
+      "StartDate": "2020",
+      "EndDate": "present",
+      "Description": ""
+    }
+  ],
+  "Projects": [
+    {
+      "Name": "Can't Stop Game",
+      "Description": "Can't Stop Game for Windows Terminal",
+      "Image": "CantStop.png",
+      "Technologies": [
+        "C"
+      ],
+      "Link": "https://github.com/ImHarker/CantStopC"
+    },
+    {
+      "Name": "BattleShip Game",
+      "Description": "BattleShip Game for Windows Terminal",
+      "Image": "BattleShip.png",
+      "Technologies": [
+        "C++"
+      ],
+      "Link": "https://github.com/ImHarker/BattleShipCpp"
+    },
+    {
+      "Name": "File Parser",
+      "Description": "File Parser using Yacc, Lex and C",
+      "Image": "Parser.png",
+      "Technologies": [
+        "Yacc",
+        "Lex",
+        "C"
+      ],
+      "Link": "https://github.com/ImHarker/Yacc-Lex-Project"
+    },
+    {
+      "Name": "Shopping List App",
+      "Description": "Shopping List App for Windows and Android",
+      "Image": "ShoppingList.png",
+      "Technologies": [
+        "C#",
+        "Xamarin",
+        "WPF"
+      ],
+      "Link": "https://github.com/ImHarker/Lista-de-Compras-WPF-Android"
+    },
+    {
+      "Name": "Online Game Store",
+      "Description": "Online Game Store Website",
+      "Image": "EspamaGS.png",
+      "Technologies": [
+        "C#",
+        "ASP.NET Core",
+        "SQL"
+      ],
+      "Link": "https://github.com/ImHarker/EspamaGS"
+    }
+  ]
+}
