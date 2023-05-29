@@ -119,6 +119,18 @@
         "Three.js"
       ],
       "Link": "https://github.com/ImHarker/EspamaCraft"
+    },
+    {
+      "Name": "Wholesalers",
+      "Description": "Sockets, gRPC, RabbitMQ wholesalers tracking system",
+      "Image": "Wholesalers.png",
+      "Technologies": [
+        "C#",
+        "Sockets",
+        "gRPC",
+        "RabbitMQ"
+      ],
+      "Link": "https://github.com/ImHarker/Wholesalers"
     }
   ]
 }
