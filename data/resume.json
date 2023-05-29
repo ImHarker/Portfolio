@@ -109,6 +109,16 @@
         "SQL"
       ],
       "Link": "https://github.com/ImHarker/EspamaGS"
+    },
+    {
+      "Name": "EspamaCraft",
+      "Description": "Minecraft inspired project made in Three.js",
+      "Image": "EspamaCraft.png",
+      "Technologies": [
+        "Javascript",
+        "Three.js"
+      ],
+      "Link": "https://github.com/ImHarker/EspamaCraft"
     }
   ]
 }
