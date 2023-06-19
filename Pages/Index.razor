@@ -64,65 +64,78 @@
 		
 		
 
-		<div class="body-container m-auto d-flex flex-wrap justify-content-center">
+	<div class="body-container m-auto d-flex flex-wrap justify-content-center">
 			
-			<div class="body-left">
+		<div class="body-left">
 				
-				<div class="education-container">
-					<div class="education-title text-center">
-						<i class="bi bi-mortarboard-fill"></i>
-						<strong>Education</strong>
-					</div>
-					<div class="education-items">
-						@foreach (var item in resume.Education) {
-							<strong>@item.Degree</strong>
-							<pre>@item.Name</pre>
-							<pre>@item.Location</pre>
-							<pre><i>@item.StartDate - @item.EndDate</i></pre>
-							<br/>
-							<pre>@item.Description</pre>
-						}
-					</div>
-
-
+			<div class="education-container">
+				<div class="education-title text-center">
+					<i class="bi bi-mortarboard-fill"></i>
+					<strong>Education</strong>
 				</div>
-				
-				<div class="skills-container">
-					<div class="skills-title text-center">
-						<i class="bi bi-puzzle-fill"></i>
-						<strong>Skills</strong>
-					</div>
-					<div class="skills-items">
-						@foreach (var list in resume.Skills) {
-							<strong>@list.Title</strong>
-							<ul>
-								@foreach (var item in list.Name) {
-									<li>@item</li>
-								}
-							</ul>
-						}
-					</div>
+				<div class="education-items">
+					@foreach (var item in resume.Education) {
+						<strong>@item.Degree</strong>
+						<pre>@item.Name</pre>
+						<pre>@item.Location</pre>
+						<pre><i>@item.StartDate - @item.EndDate</i></pre>
+						<br/>
+						<pre>@item.Description</pre>
+					}
+				</div>
 
+
+			</div>
+				
+			<div class="skills-container">
+				<div class="skills-title text-center">
+					<i class="bi bi-puzzle-fill"></i>
+					<strong>Skills</strong>
+				</div>
+				<div class="skills-items">
+					@foreach (var list in resume.Skills) {
+						<strong>@list.Title</strong>
+						<ul>
+							@foreach (var item in list.Name) {
+								<li>@item</li>
+							}
+						</ul>
+					}
 				</div>
 
 			</div>
+
+		</div>
 			
 
-			<div class="body-right">
+		<div class="body-right">
 
-				<div class="projects-container">
-					<div class="projects-title text-center">
-						<i class="bi bi-folder-fill"></i>
-						<strong>Projects </strong><a class="link-dark bi bi-link-45deg" href="portfolio"></a>
-					</div>
-					<div class="projects-items">
-						@foreach (var item in resume.Projects) {
+			<div class="projects-container">
+				<div class="projects-title text-center">
+					<i class="bi bi-folder-fill"></i>
+					<strong>Projects </strong><a class="link-dark bi bi-link-45deg" href="portfolio"></a>
+				</div>
+				<div class="projects-items">
+					@foreach (var item in resume.Projects) {
 						<div>
 							<strong>@item.Name (@String.Join(", ", item.Technologies )) </strong> <a class="link-dark bi bi-box-arrow-up-right" title="Open in a new tab" target="_blank" href="@item.Link"></a>
 							<pre>@item.Description</pre>
 						</div>
 					}
-					</div>
+				</div>
+			</div>
+				
+			<div class="other-container">
+				<div class="other-title text-center">
+					<i class="bi bi-trophy-fill"></i>
+					<strong>Other</strong>
+				</div>
+				<div class="other-items">
+					@foreach (var item in resume.Other) {
+						<ul>
+							<li><pre>@item</pre></li>
+						</ul>
+					}
 				</div>
 
 			</div>
@@ -131,7 +144,9 @@
 		
 
 	</div>
-}
+	</div>
+	}
+	
 
 
 @code {

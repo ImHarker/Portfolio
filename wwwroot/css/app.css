@@ -62,7 +62,8 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
-.nav-link-icon{
+
+.nav-link-icon {
     padding-right: 1rem;
 }
 
@@ -73,7 +74,7 @@ a, .btn-link {
     overflow: hidden;
     margin-bottom: 2rem;
 }
-    
+
 
 .profile-pic {
     width: 150px;
@@ -107,7 +108,7 @@ a, .btn-link {
     padding-bottom: 2rem;
 }
 
-.education-container > .education-title, .skills-container > .skills-title, .projects-container > .projects-title {
+.education-container > .education-title, .skills-container > .skills-title, .projects-container > .projects-title, .other-container > .other-title {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     margin-bottom: 0.5rem;
@@ -115,7 +116,7 @@ a, .btn-link {
     background: #dddddd;
 }
 
-.education-container > .education-items, .skills-container > .skills-items, .projects-container > .projects-items {
+.education-container > .education-items, .skills-container > .skills-items, .projects-container > .projects-items, .other-container > .other-items {
     padding-right: 1rem;
     padding-left: 1rem;
 }
@@ -133,6 +134,7 @@ pre {
     width: 45%;
     margin-left: 2rem;
 }
+
 .body-projects-container {
     width: 100%;
 }
@@ -147,11 +149,13 @@ pre {
     margin-left: 1rem;
     text-align: center;
 }
+
     .project-container > .project-image-link > img {
         object-fit: cover;
         aspect-ratio: 16/9;
         width: 100%;
     }
+
     .project-container > .project-image-link {
         border-radius: 1rem;
         display: block;
@@ -172,6 +176,7 @@ pre {
             outline: 5px cornflowerblue solid;
             outline-offset: -1px;
         }
+
     .project-container > pre {
         width: 70%;
         margin: auto;
