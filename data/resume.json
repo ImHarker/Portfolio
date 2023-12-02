@@ -129,6 +129,15 @@
         "RabbitMQ"
       ],
       "Link": "https://github.com/ImHarker/Wholesalers"
+    },
+    {
+      "Name": "hLogger",
+      "Description": "C# Logging Library",
+      "Image": "hLogger.png",
+      "Technologies": [
+        "C#"
+      ],
+      "Link": "https://github.com/ImHarker/hLogger"
     }
   ],
   "Other": [
