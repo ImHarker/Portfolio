@@ -50,9 +50,9 @@
     {
       "Name": "UTAD - Universidade de Trás-os-Montes e Alto Douro",
       "Location": "Folhadela, Vila Real, Portugal",
-      "Degree": "Bachelor Computer Science",
+      "Degree": "Bachelor's Computer Science",
       "StartDate": "2020",
-      "EndDate": "present",
+      "EndDate": "2024",
       "Description": ""
     }
   ],
@@ -138,6 +138,16 @@
         "C#"
       ],
       "Link": "https://github.com/ImHarker/hLogger"
+    },
+    {
+      "Name": "hOTP",
+      "Description": "C# Authenticator App",
+      "Image": "hOTP.png",
+      "Technologies": [
+        "C#",
+        "WPF"
+      ],
+      "Link": "https://github.com/ImHarker/hOTP"
     }
   ],
   "Other": [
