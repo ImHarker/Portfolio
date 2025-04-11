@@ -65,99 +65,99 @@
     }
   ],
   "Projects": [
-    {
-      "Name": "Can't Stop Game",
-      "Description": "Can't Stop Game for Windows Terminal",
-      "Image": "CantStop.png",
-      "Technologies": [
-        "C"
-      ],
-      "Link": "https://github.com/ImHarker/CantStopC"
-    },
-    {
-      "Name": "BattleShip Game",
-      "Description": "BattleShip Game for Windows Terminal",
-      "Image": "BattleShip.png",
-      "Technologies": [
-        "C++"
-      ],
-      "Link": "https://github.com/ImHarker/BattleShipCpp"
-    },
-    {
-      "Name": "File Parser",
-      "Description": "File Parser using Yacc, Lex and C",
-      "Image": "Parser.png",
-      "Technologies": [
-        "Yacc",
-        "Lex",
-        "C"
-      ],
-      "Link": "https://github.com/ImHarker/Yacc-Lex-Project"
-    },
-    {
-      "Name": "Shopping List App",
-      "Description": "Shopping List App for Windows and Android",
-      "Image": "ShoppingList.png",
-      "Technologies": [
-        "C#",
-        "Xamarin",
-        "WPF"
-      ],
-      "Link": "https://github.com/ImHarker/Lista-de-Compras-WPF-Android"
-    },
-    {
-      "Name": "Online Game Store",
-      "Description": "Online Game Store Website",
-      "Image": "EspamaGS.png",
-      "Technologies": [
-        "C#",
-        "ASP.NET Core",
-        "SQL"
-      ],
-      "Link": "https://github.com/ImHarker/EspamaGS"
-    },
-    {
-      "Name": "EspamaCraft",
-      "Description": "Minecraft inspired project made in Three.js",
-      "Image": "EspamaCraft.png",
-      "Technologies": [
-        "Javascript",
-        "Three.js"
-      ],
-      "Link": "https://github.com/ImHarker/EspamaCraft"
-    },
-    {
-      "Name": "Wholesalers",
-      "Description": "Sockets, gRPC, RabbitMQ wholesalers tracking system",
-      "Image": "Wholesalers.png",
-      "Technologies": [
-        "C#",
-        "Sockets",
-        "gRPC",
-        "RabbitMQ"
-      ],
-      "Link": "https://github.com/ImHarker/Wholesalers"
-    },
-    {
-      "Name": "hLogger",
-      "Description": "C# Logging Library",
-      "Image": "hLogger.png",
-      "Technologies": [
-        "C#"
-      ],
-      "Link": "https://github.com/ImHarker/hLogger"
-    },
-    {
-      "Name": "hOTP",
-      "Description": "C# Authenticator App",
-      "Image": "hOTP.png",
-      "Technologies": [
-        "C#",
-        "WPF"
-      ],
-      "Link": "https://github.com/ImHarker/hOTP"
-    }
-  ],
+  {
+    "Name": "hOTP",
+    "Description": "C# Authenticator App",
+    "Image": "hOTP.png",
+    "Technologies": [
+      "C#",
+      "WPF"
+    ],
+    "Link": "https://github.com/ImHarker/hOTP"
+  },
+  {
+    "Name": "hLogger",
+    "Description": "C# Logging Library",
+    "Image": "hLogger.png",
+    "Technologies": [
+      "C#"
+    ],
+    "Link": "https://github.com/ImHarker/hLogger"
+  },
+  {
+    "Name": "Wholesalers",
+    "Description": "Sockets, gRPC, RabbitMQ wholesalers tracking system",
+    "Image": "Wholesalers.png",
+    "Technologies": [
+      "C#",
+      "Sockets",
+      "gRPC",
+      "RabbitMQ"
+    ],
+    "Link": "https://github.com/ImHarker/Wholesalers"
+  },
+  {
+    "Name": "EspamaCraft",
+    "Description": "Minecraft inspired project made in Three.js",
+    "Image": "EspamaCraft.png",
+    "Technologies": [
+      "Javascript",
+      "Three.js"
+    ],
+    "Link": "https://github.com/ImHarker/EspamaCraft"
+  },
+  {
+    "Name": "Online Game Store",
+    "Description": "Online Game Store Website",
+    "Image": "EspamaGS.png",
+    "Technologies": [
+      "C#",
+      "ASP.NET Core",
+      "SQL"
+    ],
+    "Link": "https://github.com/ImHarker/EspamaGS"
+  },
+  {
+    "Name": "Shopping List App",
+    "Description": "Shopping List App for Windows and Android",
+    "Image": "ShoppingList.png",
+    "Technologies": [
+      "C#",
+      "Xamarin",
+      "WPF"
+    ],
+    "Link": "https://github.com/ImHarker/Lista-de-Compras-WPF-Android"
+  },
+  {
+    "Name": "File Parser",
+    "Description": "File Parser using Yacc, Lex and C",
+    "Image": "Parser.png",
+    "Technologies": [
+      "Yacc",
+      "Lex",
+      "C"
+    ],
+    "Link": "https://github.com/ImHarker/Yacc-Lex-Project"
+  },
+  {
+    "Name": "BattleShip Game",
+    "Description": "BattleShip Game for Windows Terminal",
+    "Image": "BattleShip.png",
+    "Technologies": [
+      "C++"
+    ],
+    "Link": "https://github.com/ImHarker/BattleShipCpp"
+  },
+  {
+    "Name": "Can't Stop Game",
+    "Description": "Can't Stop Game for Windows Terminal",
+    "Image": "CantStop.png",
+    "Technologies": [
+      "C"
+    ],
+    "Link": "https://github.com/ImHarker/CantStopC"
+  }
+],
   "Other": [
     "1st place NEEI-UTAD Code Battle 2022/2023",
     "1st place NEEI-UTAD Code Battle 2021/2022"
