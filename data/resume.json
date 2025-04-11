@@ -5,7 +5,7 @@
   "Phone": "(+351) 927 412 369",
   "Address": "Barcelos, Braga, Portugal",
   "Summary": "",
-  "Age": 23,
+  "Age": 24,
   "Languages": [
     "English",
     "Portuguese"
@@ -48,9 +48,17 @@
   ],
   "Education": [
     {
+      "Name": "UMINHO - Universidade do Minho",
+      "Location": "Gualtar, Braga, Portugal",
+      "Degree": "Master's Informatics Engineering",
+      "StartDate": "2024",
+      "EndDate": "present",
+      "Description": ""
+    },
+    {
       "Name": "UTAD - Universidade de Trás-os-Montes e Alto Douro",
       "Location": "Folhadela, Vila Real, Portugal",
-      "Degree": "Bachelor's Computer Science",
+      "Degree": "Bachelor's Informatics Engineering",
       "StartDate": "2020",
       "EndDate": "2024",
       "Description": ""
